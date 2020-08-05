@@ -12,7 +12,6 @@
 
 header {
 	width: 100%;
-	height: 70px;
 	background-color: #EC715F;
 }
 
@@ -25,18 +24,174 @@ header {
 
 .header-img {
 	height: 70px;
+	float: left;
+}
+
+nav {
+	float: right;
 }
 
 .nav-list {
 	font-size: 16px;
-	color: #FAFAFA;
+	text-align: right;
+	line-height: 70px;
 }
 
 .nav-list-item {
 	margin: 0 30px;
-
+	list-style: none;
+	display: inline-block;
 }
 
-.fab fa-facebook-f {
-	size: 60px;
+a {
+	text-decoration: none;
+	color: #fafafa;
+}
+
+.main-visual {
+	width: 100%;
+	height: 650px;
+	background-image: url(img/mv.png);
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+
+.main-visual-title {
+	font-size: 64px;
+	color: #fafafa;
+	padding-top: 200px;
+	padding-bottom: 10px;
+}
+
+.main-visual-text {
+	font-size: 20px;
+	color: #fafafa;
+}
+
+#Portfolio {
+	background-color: #eceff1;
+}
+
+.Portfolio {
+	width: 920px;
+	margin: 0 auto;
+	padding-top: 90px;
+	padding-bottom: 90px;
+	text-align: center;
+}
+
+.title {
+	font-size: 32px;
+	color: #000000;
+	margin-bottom: 8px;
+}
+
+.title::after {
+	content: "";
+	display: block;
+	clear: both;
+	margin: 0 auto;
+	height: 3px;
+	width: 70px;
+	background-color: #EC715F;
+}
+
+.text {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 16px;
+	color: #000000;
+}
+
+.Portfolio-image {
+	width: 300px;
+	height: 250px;
+	float: left;
+	background-size: cover;
+	background-position: center;
+}
+
+.Portfolio-image:nth-child(1) {
+	background-image: url(img/sketch.jpg);
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.Portfolio-image:nth-child(2) {
+	background-image: url(img/websuku.png);
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.Portfolio-image:nth-child(3) {
+	background-image: url(img/write.jpg);
+	margin-bottom: 10px;
+}
+
+.Portfolio-image:nth-child(4) {
+	background-image: url(img/webcamp.png);
+	margin-right: 10px;
+}
+
+.Portfolio-image:nth-child(5) {
+	background-image: url(img/talk.jpg);
+	margin-right: 10px;
+}
+
+.Portfolio-image:nth-child(6) {
+	background-image: url(img/webcamp-mother.png);
+}
+
+.Feature {
+	width: 980px;
+	margin: 0 auto;
+	padding-top: 90px;
+	padding-bottom: 90px;
+	text-align: center;
+}
+
+.Strength {
+	width: 320px;
+	float: left;
+}
+
+.Strength:nth-child(-n+2) {
+	margin-right: 10px;
+}
+
+
+.Strength-title {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 20px;
+	color: #000000;
+}
+
+.Strength-text {
+	font-size: 16px;
+	color: #000000;
+	text-align: left;
+}
+
+#Profile {
+	background-color: #eceff1;
+}
+
+.Profile {
+	width: 1024px;
+	margin: 0 auto;
+	padding-top: 90px;
+	padding-bottom: 90px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+.fas {
+	font-size: 60px;
 }
