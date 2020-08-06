@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>WALS成果物</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<link rel="icon" type="image/x-icon" href="img/favicon.ico">
 	<script src="https://kit.fontawesome.com/13d4e31cf2.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="style.css">
@@ -20,6 +21,11 @@
 					<li class="nav-list-item"><a href="#Contact">Contact</a></li>
 				</ul>
 			</nav>
+			<div class="ham">
+				<span class="ham_line ham_line1"></span>
+				<span class="ham_line ham_line2"></span>
+				<span class="ham_line ham_line3"></span>
+			</div>
 		</div>
 	</header>
 
@@ -31,7 +37,7 @@
 	<div id="Portfolio">
 		<div class="Portfolio">
 			<p class="title">Portfolio</p>
-			<p class="Portfolio-text">
+			<p class="text">
 				It is a long established fact that a reader will be distracted by the readable<br>
 				content of a page when looking at its layout.<br>
 				The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
@@ -85,36 +91,44 @@
 				content of a page when looking at its layout.<br>
 				The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
 			</p>
-			<div>
-				<img src="img/my-icon.jpg">
-				<p>MyName</p>
-				<p>
-					Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur
-				</p>
-				<p>MySkills</p>
-				<p>HTML/CSS,JavaScript,JQuery,PhotoShop</p>
+			<div class="clearfix">
+				<div class="Profile-icon">
+					<div class="Profile-image"></div>
+				</div>
+				<div class="Profile-details">
+					<p class="Profile-details-title">MyName</p>
+					<p class="Profile-details-text">
+						Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur
+					</p>
+					<p class="Profile-details-title">MySkills</p>
+					<p class="Profile-details-text">HTML/CSS,JavaScript,JQuery,PhotoShop</p>
+				</div>
 			</div>
 		</div>
 	</div>
 
 	<div id="Contact">
-		<p>Contact</p>
-		<p>
-			It is a long established fact that a reader will be distracted by the readable<br>
-			content of a page when looking at its layout.<br>
-			The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
-		</p>
-		<div>
-			<p>Mail</p>
-			<p>xxx@xxx.com</p>
-			<p>Tel</p>
-			<p>000-0000-0000</p>
-		</div>
-		<div>
-			<p>SNS</p>
-			<i class="fab fa-facebook-f"></i>
-			<i class="fab fa-twitter"></i>
-			<i class="fab fa-instagram"></i>
+		<div class="Contact">
+			<p class="title">Contact</p>
+			<p class="text">
+				It is a long established fact that a reader will be distracted by the readable<br>
+				content of a page when looking at its layout.<br>
+				The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
+			</p>
+			<div class="clearfix">
+				<div class="Mail-Tel">
+					<p class="Mail-Tel-title">Mail</p>
+					<p class="Mail-Tel-text">xxx@xxx.com</p>
+					<p class="Mail-Tel-title">Tel</p>
+					<p class="Mail-Tel-text">000-0000-0000</p>
+				</div>
+				<div class="SNS">
+					<p class="SNS-title">SNS</p>
+					<i class="fab fa-facebook-f"></i>
+					<i class="fab fa-twitter"></i>
+					<i class="fab fa-instagram"></i>
+				</div>
+			</div>
 		</div>
 	</div>
 

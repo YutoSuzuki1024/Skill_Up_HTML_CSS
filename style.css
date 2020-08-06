@@ -186,12 +186,175 @@ a {
 	text-align: center;
 }
 
+.Profile-icon {
+	width: 512px;
+	float: left;
+}
 
+.Profile-image {
+	width: 250px;
+	height: 250px;
+	background-image: url(img/my-icon.jpg);
+	background-size: cover;
+	background-position: center;
+	border-radius: 50%;
+	margin: 0 auto;
+}
 
+.Profile-details {
+	width: 512px;
+	float: left;
+	text-align: left;
+}
 
+.Profile-details-title {
+	font-size: 20px;
+	margin-bottom: 5px;
+}
 
+.Profile-details-text {
+	font-size: 16px;
+	color: #000000;
+	margin-bottom: 20px;
+}
+
+.Contact {
+	width: 800px;
+	margin: 0 auto;
+	padding-top: 90px;
+	padding-bottom: 90px;
+	text-align: center;
+}
+
+.Mail-Tel {
+	width: 400px;
+	float: left;
+	text-align: left;
+	display: inline-block;
+}
+
+.SNS {
+	width: 400px;
+	float: left;
+	text-align: left;
+	display: inline-block;
+}
+
+.Mail-Tel-title {
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+
+.Mail-Tel-text {
+	font-size: 16px;
+	margin-bottom: 20px;
+	text-decoration: underline;
+}
+
+.SNS-title {
+	font-size: 20px;
+	margin-bottom: 5px;
+}
 
 
 .fas {
 	font-size: 60px;
+}
+
+.fab {
+	font-size: 50px;
+	margin-right: 20px;
+}
+
+footer {
+	width: 100%;
+	height: 60px;
+	background-color: #EC715F;
+	font-size: 16px;
+	color: #fafafa;
+	text-align: center;
+	line-height: 60px;
+}
+
+@media screen and (max-width: 768px) {
+	header, .main-visual, #Portfolio, #Feature, #Profile, #Contact, footer {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.header-text {
+		width: 90%;
+		height: 50px;
+	}
+
+	.header-img {
+		height: 50px;
+	}
+
+	nav {
+		display: none;
+	}
+
+	.ham {
+		position: relative;
+		width: 40px;
+		height: 40px;
+		cursor: pointer;
+		border: solid;
+		color: #fafafa;
+		float: right;
+		margin-top: 5px;
+	}
+
+	.ham_line {
+		position: absolute;
+		left: 10px;
+		width: 20px;
+		height: 1px;
+		background-color: #fafafa;
+	}
+
+	.ham_line1 {
+		top: 10px;
+	}
+
+	.ham_line2 {
+		top: 18px;
+	}
+
+	.ham_line3 {
+		top: 26px;
+	}
+
+	.main-visual {
+		width: 90%;
+		height: 650px;
+		background-image: url(img/code.png);
+	}
+
+	.main-visual-title {
+		font-size: 40px;
+	}
+
+	.main-visual-text {
+		font-size: 18px;
+	}
+
+	.Portfolio {
+		width: 90%;
+	}
+
+	.Portfolio-image {
+		float: none;
+		margin: 0 auto;
+	}
+
+	.Portfolio-image:nth-child(odd) {
+		display: none;
+	}
+
+	.Portfolio-image:nth-child(even) {
+		margin-right: 0;
+		margin-bottom: 10px;
+	}
 }
