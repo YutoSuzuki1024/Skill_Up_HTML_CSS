@@ -231,6 +231,7 @@ a {
 	float: left;
 	text-align: left;
 	display: inline-block;
+	padding-left: 140px;
 }
 
 .SNS {
@@ -238,6 +239,7 @@ a {
 	float: left;
 	text-align: left;
 	display: inline-block;
+	padding-left: 120px;
 }
 
 .Mail-Tel-title {
@@ -341,12 +343,18 @@ footer {
 	}
 
 	.Portfolio {
-		width: 90%;
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.Portfolio-contents {
+		width: 100%;
+		margin: 0 auto;
 	}
 
 	.Portfolio-image {
 		float: none;
-		margin: 0 auto;
+		margin-left: 195px;
 	}
 
 	.Portfolio-image:nth-child(odd) {
@@ -356,5 +364,51 @@ footer {
 	.Portfolio-image:nth-child(even) {
 		margin-right: 0;
 		margin-bottom: 10px;
+	}
+
+	.Feature {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.Strength {
+		float: none;
+		margin-left: 195px;
+	}
+
+	.Strength-text {
+		margin-bottom: 10px;
+	}
+
+	.Profile {
+		width: 100%;
+	}
+
+	.Profile-icon, .Profile-details {
+		float: none;
+		margin: 0 auto;
+	}
+
+	.Profile-details {
+		text-align: center;
+	}
+
+	.Profile-details-title {
+		margin-top: 20px;
+	}
+
+	.Contact {
+		width: 100%;
+	}
+
+	.fab {
+		margin-right: 8px;
+	}
+
+	.Mail-Tel, .SNS {
+		float: none;
+		margin: 0 auto;
+		text-align: center;
+		padding-left: 0;
 	}
 }
